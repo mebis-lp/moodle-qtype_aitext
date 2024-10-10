@@ -464,7 +464,6 @@ class qtype_aitext_format_editor_renderer extends qtype_aitext_format_renderer_b
 
         $formatoptions = new stdClass();
         $formatoptions->para = false;
-        return "bla";
         return format_text($step->get_qt_var($name), $step->get_qt_var($name . 'format'),
                 $formatoptions);
     }
